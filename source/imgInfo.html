@@ -1,0 +1,90 @@
+<!-- 
+Format: Width x Height (px)
+
+images:
+	index.php:
+		banner.png: 950px x 250px
+		logo.png: 250px x 40px;
+
+
+	this.Status=function(){
+		var t='';
+		switch(this.status){
+			case 100: t='Continue'; break;
+			case 101: t='Switching Protocols'; break;
+			case 102: t='Processing'; break;
+			case 200: t='OK'; break;
+			case 201: t='Created'; break;
+			case 202: t='Accepted'; break;
+			case 203: t='Non-Authoritative Information'; break;
+			case 204: t='No Content'; break;
+			case 205: t='Reset Content'; break;
+			case 206: t='Partial Content'; break;
+			case 207: t='Multi-Status'; break;
+			case 208: t='Already Reported'; break;
+			case 226: t='IM Used'; break;
+			case 300: t='Multiple Choices'; break;
+			case 301: t='Moved Permanently'; break;
+			case 302: t='Found'; break;
+			case 303: t='See Other'; break;
+			case 304: t='Not Modified'; break;
+			case 305: t='Use Proxy'; break;
+			case 306: t='Switch Proxy'; break;
+			case 307: t='Temporary Redirect'; break;
+			case 308: t='Permanent Redirect'; break;
+			case 400: t='Bad Request'; break;
+			case 401: t='Unauthorized'; break;
+			case 402: t='Payment Required'; break;
+			case 403: t='Forbidden'; break;
+			case 404: t='Not Found'; break;
+			case 405: t='Method Not Allowed'; break;
+			case 406: t='Not Acceptable'; break;
+			case 407: t='Proxy Authentication Required'; break;
+			case 408: t='Request Timeout'; break;
+			case 409: t='Conflict'; break;
+			case 410: t='Gone'; break;
+			case 411: t='Length Required'; break;
+			case 412: t='Precondition Failed'; break;
+			case 413: t='Request Entity Too Large'; break;
+			case 414: t='Request-URI Too Long'; break;
+			case 415: t='Unsupported Media Type'; break;
+			case 416: t='Requested Range Not Satisfiable'; break;
+			case 417: t='Expectation Failed'; break;
+			case 418: t='I\'m a teapot (RFC 2324)'; break;
+			case 420: t='Enhance Your Calm (Twitter)'; break;
+			case 422: t='Unprocessable Entity'; break;
+			case 423: t='Locked'; break;
+			case 424: t='Failed Dependency or Method Failure'; break;
+			case 425: t='Unordered Collection'; break;
+			case 426: t='Upgrade Required'; break;
+			case 428: t='Precondition Required'; break;
+			case 429: t='Too Many Requests'; break;
+			case 431: t='Request Header Fields Too Large'; break;
+			case 444: t='No Response'; break;
+			case 449: t='Retry With (Microsoft)'; break;
+			case 450: t='Blocked by Windows Parental Controls (Microsoft)'; break;
+			case 451: t='Unavailable for Legal Reasons or Redirect (Microsoft)'; break;
+			case 494: t='Request Header Too Large (Nginx)'; break;
+			case 495: t='Cert Error (Nginx)'; break;
+			case 496: t='No Cert (Nginx)'; break;
+			case 497: t='HTTP to HTTPS (Nginx)'; break;
+			case 499: t='Client Closed Request (Nginx)'; break;
+			case 500: t='Internal Server Error'; break;
+			case 501: t='Not Implemented'; break;
+			case 502: t='Bad Gateway'; break;
+			case 503: t='Service Unavailable'; break;
+			case 504: t='Gateway Timeout'; break;
+			case 505: t='HTTP Version Not Supported'; break;
+			case 506: t='Variant Also Negotiates (RFC 2295)'; break;
+			case 507: t='Insufficient Storage (WebDAV; RFC 4918)'; break;
+			case 508: t='Loop Detected (WebDAV; RFC 5842)'; break;
+			case 509: t='Bandwidth Limit Exceeded (Apache bw/limited extension)'; break;
+			case 510: t='Not Extended (RFC 2774)'; break;
+			case 511: t='Network Authentication Required (RFC 6585)'; break;
+			case 598: t='Network read timeout error (Unknown)'; break;
+			case 599: t='Network connect timeout error (Unknown)'; break;
+			default: t='Undefined'; break;
+		}
+		return new Array(this.status, t);
+	}
+-->

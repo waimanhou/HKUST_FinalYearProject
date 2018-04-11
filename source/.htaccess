@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /fyp/
+
+RewriteRule ^geosn$ index.php
+RewriteRule ^d$ index.php?mode=desktop
+RewriteRule ^m$ index.php?mode=mobile
+RewriteRule ^event$ index.php?p=event
+RewriteRule ^news$ index.php?p=news
+RewriteRule ^wall$ index.php?p=wall
+RewriteRule ^wall=(.*)$ index.php?p=wall&id=$1
+RewriteRule ^friend$ index.php?p=friend
+RewriteRule ^friend=(.*)$ index.php?p=friend&id=$1
+RewriteRule ^checkin$ index.php?p=checkin
+RewriteRule ^profile$ index.php?p=profile
+RewriteRule ^profile=(.*)$ index.php?p=profile&id=$1
+RewriteRule ^venue$ index.php?p=venue
+RewriteRule ^note$ index.php?p=notification
+RewriteRule ^account$ index.php?p=account
+RewriteRule ^search=(.*)$ index.php?p=search&searchInfo=$1
+</IfModule>

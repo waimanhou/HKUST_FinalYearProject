@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "511b856d44aeaf7017f078a2"} , "username" : "nick" , "pswd" : "password" , "email" : "nick@gmail.com" , "createDate" : { "$date" : "2013-02-13T12:22:05.209Z"} , "adminId" : 1}
